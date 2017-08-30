@@ -12,7 +12,7 @@
 <script type="text/javascript">
 	if('serviceWorker' in navigator) {
 	  navigator.serviceWorker
-	           .register('sw.js',{scope:'/'})
+	           .register('sw.js',{scope:'/pwa-example/'})
 	           .then(function() { console.log("Service Worker Registered"); });
 	}
 </script>
